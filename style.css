@@ -10,7 +10,7 @@ body {
     height: auto
 }
 #submit-area {
-    margin: 70px;
+    margin: 4rem;
     margin-top: 50px;
     padding: 100px;
     box-shadow:   5px 5px 20px black;
@@ -48,7 +48,7 @@ body {
 .submit-area {
     
     margin: 20px;
-    padding: 100px;
+    padding: 100px 40px;
     box-shadow:   5px 5px 20px black;
     border-radius: 10px;
 }
