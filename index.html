@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goriber Bank</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="login-area">
+        <div class="d-flex align-self-start justify-content-center image-meow">
+            <img src="gorib.png"  alt="" class="img-fluid meow">   
+        </div>
+    <div id="submit-area">
+        <h4>Login</h4>
+        <br>
+        <input placeholder="e-mail" class="form-control" type="text" name="" id="">
+    <br>
+        <input placeholder="password" class="form-control" type="password" name="" id="">
+        <br>
+        <button id="login" class="btn btn-danger">Submit</button>
+    </div>
+    </div>
+
+    <div id="transaction-area">
+     <div class="row">
+      <div class="col-md-4">
+       <div class="deposit status">
+        <h5>Deposit</h5>
+        <h2>$<span id="depositDisp">00</span></h2>
+       </div>
+      </div>   
+      <div class="col-md-4 ">
+       <div class="withdraw status">
+        <h5>Withdraw</h5>
+        <h2>$<span id="withdrawDisp">00</span></h2>
+       </div>
+      </div> 
+      <div class="col-md-4 ">
+     <div class="balance status">
+        <h5>Balance</h5>
+        <h2>$<span id="totalDisp">1290</h2>
+     </div>
+      </div> 
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="submit-area">
+                <h4>Deposit</h4>
+                <input type="number" class="form-control" id="depositAmount" placeholder="$ amount of deposit">
+                <br>
+                <button id="depositBtn" class="btn-danger btn">Deposit</button>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="submit-area">
+                <h4>Withdraw</h4>
+            <input id="withdrawValue" type="text" class="form-control"
+            placeholder="$ amount of withdraw">
+            <br>
+            <button id="withdrawBtn" class="btn-danger btn">Withdraw</button>
+            </div>
+        </div>
+            
+    </div>
+    </div>
+
+
+
+
+
+
+
+<footer>
+    <p class="text-center">Goriber Bank Ltd. © 2012 - 2022</p>
+</footer>
+
+
+
+
+
+
+</body>
+</html>
